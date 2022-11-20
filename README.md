@@ -1,4 +1,4 @@
-# Preconfigurated MPV with RIFE
+# Preconfigured MPV with RIFE
 
 mpv: https://sourceforge.net/projects/mpv-player-windows/files/64bit/mpv-x86_64-20221113-git-2f74734.7z/
 vapoursynth: https://github.com/vapoursynth/vapoursynth/releases/tag/R60
