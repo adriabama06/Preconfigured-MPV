@@ -13,7 +13,7 @@ inspired by: https://github.com/hooke007/MPV_lazy
 ## Minimum:
 - RTX 2080 ti
 # Info
-For RTX 3080 and low:
+For RTX 3060 ti and low:
 <br>
 Edit `/mpv/vs/rife.vpy` and replace:
 ```py
