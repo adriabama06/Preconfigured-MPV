@@ -7,6 +7,8 @@
 - VapourSynth-RIFE-ncnn-Vulkan models: https://github.com/HomeOfVapourSynthEvolution/VapourSynth-RIFE-ncnn-Vulkan/releases/tag/r3
 - Anime4k: https://github.com/bloc97/Anime4K
 - FSR: https://gist.github.com/agyild/82219c545228d70c5604f865ce0b0ce5
+- FSRCNN: https://github.com/igv/FSRCNN-TensorFlow
+- NIS (NVScaler): https://gist.github.com/agyild/7e8951915b2bf24526a9343d951db214
 <br>Inspired by: https://github.com/hooke007/MPV_lazy
 
 # GPU:
