@@ -1,3 +1,6 @@
+# Download:
+[there](https://github.com/adriabama06/Preconfigured-MPV/archive/refs/heads/master.zip)
+
 # Preconfigured MPV with RIFE, FSR, Anime4k
 
 - mpv: https://sourceforge.net/projects/mpv-player-windows/files/64bit/mpv-x86_64-20221113-git-2f74734.7z/
