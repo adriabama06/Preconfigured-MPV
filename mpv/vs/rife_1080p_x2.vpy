@@ -19,7 +19,8 @@ sc_clip = core.misc.SCDetect(clip=input, threshold=0.15)
 
 #                                 1920x1080
 if (input.width * input.height) > 2073600:
-	sc_clip = sc_clip.resize.Bicubic(width=1920, height=1080, format=vs.RGBS, matrix_in_s="709")
+	aspect_radio = input.width / input.height
+	sc_clip = sc_clip.resize.Bicubic(width=int(1080 * aspect_radio) if aspect_radio != (16/9) else 1920, height=1080, format=vs.RGBS, matrix_in_s="709")
 else:
 	sc_clip = sc_clip.resize.Bilinear(format=vs.RGBS, matrix_in_s="709")
 

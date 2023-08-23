@@ -17,11 +17,12 @@ if container_fps > 61:
 # Make sure the input is not a duplicated frame
 sc_clip = core.misc.SCDetect(clip=input, threshold=0.15)
 
-#                                 854x480
-if (input.width * input.height) > 409920:
-	sc_clip = input.resize.Bicubic(width=854, height=480, format=vs.RGBS, matrix_in_s="709")
+#                                 853x480
+if (input.width * input.height) > 409440:
+	aspect_radio = input.width / input.height
+	sc_clip = sc_clip.resize.Bicubic(width=int(480 * aspect_radio) if aspect_radio != (16/9) else 853, height=480, format=vs.RGBS, matrix_in_s="709")
 else:
-	sc_clip = input.resize.Bilinear(format=vs.RGBS, matrix_in_s="709")
+	sc_clip = sc_clip.resize.Bilinear(format=vs.RGBS, matrix_in_s="709")
 
 # you can change the arguments and use this:
 # model=9, multiplier=2
