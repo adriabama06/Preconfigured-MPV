@@ -2,7 +2,7 @@
 [(click aqui)](https://github.com/adriabama06/Preconfigured-MPV/archive/refs/heads/master.zip)
 
 # Key shortcuts
-Anime4k: CTRL + (1...6 + 0) # Multiples modes
+Anime4k: CTRL + (1...6 + 0) # Multiples modes  
 RIFE: CTRL + (i,k,m + o) # Multiples modes + disable
 
 # Preconfigured MPV with RIFE, FSR, Anime4k
