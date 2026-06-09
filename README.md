@@ -1,6 +1,10 @@
 # Download:
 [(click aqui)](https://github.com/adriabama06/Preconfigured-MPV/archive/refs/heads/master.zip)
 
+# Key shortcuts
+Anime4k: CTRL + (1...6 + 0) # Multiples modes
+RIFE: CTRL + (i,k,m + o) # Multiples modes + disable
+
 # Preconfigured MPV with RIFE, FSR, Anime4k
 
 - mpv: https://sourceforge.net/projects/mpv-player-windows/files/64bit/mpv-x86_64-20221113-git-2f74734.7z/
